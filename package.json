@@ -1,4 +1,5 @@
 {
+  "homepage": "http://gogadev.github.io/React-App",
   "name": "blog",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "json-server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
@@ -37,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
