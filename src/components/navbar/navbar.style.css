@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap");
+
+nav {
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Mrs Saint Delafield", cursive;
+}
+
+.title {
+  font-size: 4rem;
+  letter-spacing: 20px;
+  color: lightgrey;
+  margin: 0 auto;
+}

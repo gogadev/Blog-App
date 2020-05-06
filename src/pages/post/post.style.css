@@ -1,0 +1,60 @@
+.post {
+  width: 95vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.post-img img {
+  width: 100%;
+  margin: 0 auto;
+  background: cover;
+}
+
+.text {
+  width: 60%;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+  margin: 0 auto;
+}
+
+.xs {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+}
+
+.s {
+  width: 60%;
+  font-size: 2rem;
+  margin: 1rem auto;
+  background: #f6f6f6;
+  padding: 0.1rem;
+}
+
+.m {
+  font-size: 3.3rem;
+  width: 34.3%;
+  background: #f6f6f6;
+}
+
+.xl {
+  width: 100%;
+}
+
+.icon {
+  margin-bottom: 0.5rem;
+  width: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .m {
+    width: 100%;
+  }
+  .icon {
+    width: 10%;
+  }
+}

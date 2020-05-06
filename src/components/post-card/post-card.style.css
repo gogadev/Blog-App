@@ -1,0 +1,38 @@
+.post-card {
+  margin: 0.5rem auto;
+}
+
+.card {
+  margin: 1rem auto;
+}
+
+.info {
+  background: #f6f6f6;
+  border-top: 5px solid #ededed;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.1rem;
+}
+
+.info-title,
+.author {
+  letter-spacing: 4px;
+  padding: 0.1rem;
+}
+
+.author {
+  color: grey;
+}
+
+.image {
+  width: 100%;
+}
+
+.pen-img {
+  width: 10%;
+  opacity: 0.5;
+}
+
+.image img {
+  width: 70%;
+}
